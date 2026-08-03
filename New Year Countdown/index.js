@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const secondsEl = document.getElementById("seconds");
 const minutesEl = document.getElementById("minutes");
 
-const newYearTime = new Date("Jan 1, 2027 00:00:00").getTime();
+const newYearTime = new Date("Jan 1, 2027 00:00:00").getTime(); 
 
 updatecountdown();
 
